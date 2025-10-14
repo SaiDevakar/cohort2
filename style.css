@@ -1,0 +1,230 @@
+@font-face {
+  font-family: monteserrat;
+  src: url(./Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: monteserratregular;
+  src: url(./Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: monteserratthin;
+  src: url(./Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: epilogue;
+  src: url(./Epilogue-Light.ttf);
+}
+
+@font-face {
+  font-family: calder;
+  src: url(./CalderW00-LC.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#background {
+  background-color: rgb(242, 239, 239);
+}
+
+#sarthak {
+  height: 250px;
+  width: 100%;
+  padding-top: 80px;
+  background-color: rgb(27, 36, 51);
+}
+#sarthak h1 {
+  font-family: monteserrat;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#sarthak p {
+  font-family: epilogue;
+  color: aliceblue;
+  font-size: 20px;
+  font-style: oblique;
+  text-align: center;
+}
+.aboutme {
+  width: 84%;
+  height: 195px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 130px;
+  padding: 50px 32px;
+  text-align: center;
+  border-radius: 7wpx;
+}
+.aboutme h2 {
+  font-family: monteserrat;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.aboutme p {
+  padding-top: 20px;
+  font-style: normal;
+  font-family: calder;
+  color: black;
+  font-size: 19px;
+}
+
+.education {
+  width: 84%;
+  height: 270px;
+  background-color: rgb(218, 240, 254);
+  color: black;
+  margin-top: 20px;
+  margin-left: 130px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.education h2 {
+  font-family: monteserrat;
+  padding-top: 60px;
+  font-weight: 900;
+}
+.colschool {
+  width: 75%;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  font-size: 19px;
+  font-style: normal;
+  font-family: calder;
+  color: black;
+  margin-left: 200px;
+  border-radius: 8px;
+}
+
+.skills {
+  width: 84%;
+  height: 380px;
+  background-color: rgb(254, 240, 191);
+  color: black;
+  margin-top: 20px;
+  margin-left: 130px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.skills h2 {
+  font-family: monteserrat;
+  padding-top: 60px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.dev {
+  width: 60%;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  font-size: 19px;
+  font-style: bold;
+  font-weight: 500;
+  font-family: monteserrat;
+  color: black;
+  margin-left: 300px;
+  border-radius: 8px;
+}
+
+.projects {
+  width: 84%;
+  height: 330px;
+  background-color: rgb(235, 229, 253);
+  color: black;
+  margin-top: 20px;
+  margin-left: 130px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.projects h2 {
+  font-family: monteserrat;
+  padding-top: 60px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.projs {
+  width: 75%;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  font-size: 17px;
+  font-style: oblique;
+  font-weight: 595;
+  font-family: calder;
+  color: black;
+  margin-left: 200px;
+  border-radius: 8px;
+}
+
+.contact {
+  width: 84%;
+  height: 320px;
+  background-color: rgb(209, 244, 220);
+  color: black;
+  margin-top: 20px;
+  margin-left: 130px;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+
+.contact h2 {
+  font-family: monteserrat;
+  padding-top: 60px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.handles {
+  width: 60%;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 595;
+  font-family: calder;
+  color: black;
+  margin-left: 300px;
+  border-radius: 8px;
+}
+
+.sarthak {
+  height: 110px;
+  width: 100%;
+  padding-top: 50px;
+  background-color: rgb(27, 36, 51);
+  font-family: monteserratthin;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+}

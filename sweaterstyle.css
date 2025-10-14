@@ -1,0 +1,120 @@
+@font-face {
+  font-family: glock;
+  src: url(./Gloock-Regular.ttf);
+}
+
+@font-face {
+  font-family: scotch;
+  src: url(./scotch-display-condensed-medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgb(203, 186, 184), rgb(136, 193, 223));
+  z-index: -2;
+}
+
+#nav {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0%;
+}
+#nav a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 20px;
+}
+
+#nav > h2 {
+  width: 100%;
+  font-family: glock;
+  text-align: center;
+}
+
+#main > h1 {
+  position: absolute;
+  left: auto;
+  z-index: 0;
+  font-family: scotch;
+  padding: 100px;
+  font-size: 250px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#btmleft {
+  width: 250px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  left: 5%;
+  bottom: 5%;
+}
+
+#btmleft h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+#btmleft p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+#btmbar {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
+
+#btmbar > a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-weight: 300;
+}
+
+#first {
+  position: absolute;
+  width: 250px;
+  left: 40%;
+  bottom: 25%;
+}
+
+#second {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  right: 32%;
+  top: 60%;
+}
+
+#third {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 68%;
+  top: 47%;
+  z-index: -1;
+}

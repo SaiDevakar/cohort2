@@ -1,0 +1,43 @@
+@font-face {
+  font-family: nothing;
+  src: url(./Ndot-55.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(./purplebg.jpg);
+  background-size: cover;
+}
+
+#heading h1 {
+  margin-top: 200px;
+  font-family: nothing;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 150px;
+  font-weight: 200;
+  color: rgb(240, 232, 232);
+}
+
+button {
+  padding: 20px 25px;
+  margin-left: 48%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+  background-color: rgb(118, 84, 200);
+  font-style: normal;
+  color: white;
+  font-weight: 100;
+  border: 2px, solid, white;
+  transition: background-color 0.5s ease;
+}
