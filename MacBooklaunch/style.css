@@ -1,0 +1,431 @@
+@font-face {
+  font-family: nav;
+  src: url(./sf-pro-text_regular.woff2);
+}
+
+@font-face {
+  font-family: cashback;
+  src: url(./sf-pro-display_semibold.woff2);
+}
+
+@font-face {
+  font-family: macbook;
+  src: url(./sf-pro-display_bold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12.5px;
+  gap: 40px;
+  font-family: nav;
+}
+
+#nav a {
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+  font-weight: 50;
+}
+
+#nav i {
+  color: white;
+  font-size: 18px;
+  color: rgb(209, 209, 209);
+}
+
+#cashback {
+  background-color: rgb(29, 29, 31);
+  width: 100%;
+  height: 50px;
+  font-family: nav;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+#cashback a {
+  color: rgb(0, 113, 227);
+}
+
+#macbook h1 {
+  font-family: cashback;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  font-weight: 300;
+  padding-top: 40px;
+}
+
+#macbook h4 {
+  font-family: nav;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 250;
+  font-size: 26px;
+  padding-top: 5px;
+}
+
+#macbook p {
+  font-family: nav;
+  color: grey;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 17px;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+#buttons > #learnmore {
+  background-color: rgb(0, 113, 227);
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border: none;
+  color: white;
+}
+
+#buttons > #preorder {
+  background-color: black;
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border-color: rgb(0, 113, 227);
+  color: rgb(0, 113, 227);
+}
+
+#macbookimg {
+  height: 320px;
+  width: 320px;
+  margin-left: 39%;
+  margin-top: 14px;
+  background-image: url(./macbookpro.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#ipad {
+  background-color: black;
+}
+
+#ipad h1 {
+  font-family: cashback;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  font-weight: 300;
+  padding-top: 60px;
+}
+
+#ipad h4 {
+  font-family: nav;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 550;
+  font-size: 25px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#ipad p {
+  font-family: nav;
+  color: grey;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+#ipadbuttons {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+#ipadbuttons > #learnmore {
+  background-color: rgb(0, 113, 227);
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border: none;
+  color: white;
+}
+
+#ipadbuttons > #preorder {
+  background-color: black;
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border-color: rgb(0, 113, 227);
+  color: rgb(0, 113, 227);
+}
+
+#ipadimg {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#ipadimg img {
+  zoom: 1.5;
+  width: 700px;
+  height: 250px;
+  overflow: hidden;
+}
+
+#iphone {
+  background-color: black;
+}
+
+#iphone h1 {
+  font-family: cashback;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+  font-weight: 300;
+  padding-top: 60px;
+}
+
+#iphone h4 {
+  font-family: nav;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 25px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#iphone p {
+  font-family: nav;
+  color: grey;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+#iphonebuttons {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+#iphonebuttons > #learnmore {
+  background-color: rgb(0, 113, 227);
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border: none;
+  color: white;
+}
+
+#iphonebuttons > #buy {
+  background-color: black;
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border-color: rgb(0, 113, 227);
+  color: rgb(0, 113, 227);
+}
+
+#iphoneimg {
+  padding-top: 20px;
+  background-color: black;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#iphoneimg img {
+  zoom: 1.5;
+  width: 800px;
+  height: 250px;
+  overflow: hidden;
+}
+#hori {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#hori > #air {
+  background-color: rgb(245, 245, 247);
+  width: 50%;
+  padding: 20px 20px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+#hori > #air > #airpods h1 {
+  font-family: cashback;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: 150;
+  padding-top: 60px;
+}
+
+#airpods h4 {
+  font-family: nav;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  font-size: 21px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#airpodsbuttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  gap: 20px;
+}
+
+#airpodsbuttons > #learnmore {
+  background-color: rgb(0, 113, 227);
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border: none;
+  color: white;
+}
+
+#airpodsbuttons > #buy {
+  background-color: rgb(233, 233, 235);
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border-color: rgb(0, 113, 227);
+  color: rgb(0, 113, 227);
+}
+
+#ipodimg {
+  padding-top: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+#ipodimg img {
+  zoom: 1.2;
+  overflow: hidden;
+}
+
+#hori > #watch {
+  background-color: rgb(245, 245, 247);
+  width: 50%;
+  margin-top: 8px;
+  margin-left: 8px;
+  padding-top: 80px;
+}
+#hori > #watch > #series11 > i {
+  font-size: 31px;
+  display: flex;
+  justify-content: center;
+  font-family: macbook;
+  font-weight: 900;
+}
+
+#hori > #watch > #series11 {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  font-family: macbook;
+  font-weight: 900;
+  gap: 5px;
+}
+
+#hori > #watch > #series11 > #series {
+  font-family: nav;
+  color: black;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+#hori > #watch > #h4 h4 {
+  font-family: nav;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  font-size: 21px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#watchbuttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  gap: 20px;
+}
+
+#watchbuttons > #learnmore {
+  background-color: rgb(0, 113, 227);
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border: none;
+  color: white;
+}
+
+#watchbuttons > #buy {
+  background-color: rgb(233, 233, 235);
+  border-radius: 25px;
+  padding: 10px 18px;
+  font-size: 17px;
+  border-color: rgb(0, 113, 227);
+  color: rgb(0, 113, 227);
+}
+
+#watchimg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  zoom: 98%;
+}
